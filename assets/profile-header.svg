@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Mehmet Kavuk — Build. Explore. Repeat.</title>
+  <desc id="desc">A dark navy profile banner with electric blue typography accents and an abstract orbital motif.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080D18"/>
+      <stop offset="1" stop-color="#101D35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="70" y1="0" x2="1130" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#55DBFF"/>
+      <stop offset="1" stop-color="#A493FF"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#287BBD" stop-opacity=".25"/>
+      <stop offset="1" stop-color="#287BBD" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" stroke="#86BAFF" stroke-opacity=".045"/>
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="360" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <ellipse cx="1010" cy="175" rx="310" ry="300" fill="url(#glow)"/>
+    <g stroke="#7CAAF3">
+      <circle cx="1000" cy="180" r="110" stroke-opacity=".19"/>
+      <circle cx="1000" cy="180" r="154" stroke-opacity=".12"/>
+      <circle cx="1000" cy="180" r="198" stroke-opacity=".07"/>
+      <ellipse cx="1000" cy="180" rx="154" ry="53" transform="rotate(-38 1000 180)" stroke-opacity=".32"/>
+    </g>
+    <circle cx="1087" cy="113" r="5" fill="#65DBFF"/>
+    <circle cx="878" cy="274" r="4" fill="#A493FF"/>
+    <path d="M965 165L944 180L965 195M1035 165L1056 180L1035 195M1009 155L991 205" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="70" y="73" width="24" height="3" rx="1.5" fill="#55DBFF"/>
+    <text x="108" y="81" fill="#9CB3D2" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="600" letter-spacing="3">JUNIOR FULL STACK WEB DEVELOPER</text>
+    <text x="66" y="188" fill="#F4F7FF" font-family="Segoe UI, Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="-3">Mehmet Kavuk<tspan fill="#55DBFF">.</tspan></text>
+    <text x="72" y="236" fill="#B7C8E1" font-family="Segoe UI, Arial, sans-serif" font-size="21" letter-spacing="1">Build. Explore. Repeat.</text>
+    <path d="M72 289H1128" stroke="url(#accent)" stroke-opacity=".22"/>
+    <text x="72" y="320" fill="#8DA4C4" font-family="Consolas, monospace" font-size="12" letter-spacing="2">AN IDEA IS A GOOD PLACE TO START.</text>
+    <rect x=".5" y=".5" width="1199" height="359" rx="23.5" stroke="#A3C8FF" stroke-opacity=".12"/>
+  </g>
+</svg>
